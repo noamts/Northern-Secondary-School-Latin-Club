@@ -1,0 +1,12 @@
+Enter password: <input id='password' type='text'  />
+<a href="latin club5.html" onclick="javascript:return validatePass()">enter your password and click this</a>
+<script>
+function validatePass(){
+    if(document.getElementById('password').value == 'test'){
+        return true;
+    }else{
+        alert('wrong password!!');
+        return false;
+    }
+}
+</script>
